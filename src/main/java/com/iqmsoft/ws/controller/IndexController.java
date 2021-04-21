@@ -15,12 +15,12 @@ public class IndexController {
 
 
     //read value from application.properties
-    @Value("${hello:Hello}")
+    @Value("${hello:This is a Test }")
     private String hello;
 
     @RequestMapping("/")
     public String index(Model model) {
-        model.addAttribute("hello",hello);
+        model.addAttribute("hello","This is a Test");
         return "index";
     }
 
