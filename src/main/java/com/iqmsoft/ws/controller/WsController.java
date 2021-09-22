@@ -28,7 +28,7 @@ public class WsController {
         addOnlineCount();           //online plus
         System.out.println("one more connect join in！current num of online is " + getOnlineCount());
         try {
-            sendMessage("Welcome " + session.getId() + "！");
+            sendMessage("Welcome to websockets " + session.getId() + "！");
         } catch (IOException e) {
             System.out.println("IO Exception");
         }

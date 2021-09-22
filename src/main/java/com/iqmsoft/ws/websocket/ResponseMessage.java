@@ -1,8 +1,6 @@
 package com.iqmsoft.ws.websocket;
 
-/**
- * Created by agji on 17/6/15.
- */
+
 public class ResponseMessage {
 
     private String responseMessage;

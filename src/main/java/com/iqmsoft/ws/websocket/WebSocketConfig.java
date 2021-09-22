@@ -12,15 +12,5 @@ public class WebSocketConfig {
         return new ServerEndpointExporter();
     }
 
-//    @Bean
-//    public ServletContextAware endpointExporterInitializer(final ApplicationContext applicationContext) {
-//        return new ServletContextAware() {
-//            @Override
-//            public void setServletContext(ServletContext servletContext) {
-//                ServerEndpointExporter exporter = new ServerEndpointExporter();
-//                exporter.setApplicationContext(applicationContext);
-//                exporter.afterPropertiesSet();
-//            }
-//        };
-//    }
+
 }
