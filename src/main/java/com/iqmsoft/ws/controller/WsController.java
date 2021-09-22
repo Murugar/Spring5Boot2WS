@@ -7,9 +7,6 @@ import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-/**
- * Created by agji on 17/6/15.
- */
 @ServerEndpoint(value = "/websocket")
 @Component
 public class WsController {
