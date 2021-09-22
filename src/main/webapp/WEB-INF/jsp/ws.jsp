@@ -1,14 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>My WebSocket</title>
+    <title>Spring Boot 2.5.4 WebSockets Using Stomp and sock</title>
 </head>
 
 <body>
-Welcome<br/>
+  <br/>
+  <br/>
+  Welcome to Spring Boot Websockets using Stomp and Sock <br/>
+  <br/>
+  <br/>
 <input id="text" type="text"/>
 <button onclick="send()">Send</button>
 <button onclick="closeWebSocket()">Close</button>
+<br/>
+<br/>
 <div id="message">
 </div>
 </body>
