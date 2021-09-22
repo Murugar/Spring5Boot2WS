@@ -1,4 +1,7 @@
 # Spring5Boot2WS
-Spring5 Boot2 WebSockets    
+
+Spring Boot 2.5.4
+
+SpringBoot WebSockets    
 
 
