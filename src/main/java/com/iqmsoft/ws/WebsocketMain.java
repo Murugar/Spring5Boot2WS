@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
-public class WebsocketJspBoot {
+public class WebsocketMain {
 
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder applicationBuilder) {
-		return applicationBuilder.sources(WebsocketJspBoot.class);
+		return applicationBuilder.sources(WebsocketMain.class);
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebsocketJspBoot.class, args);
+		SpringApplication.run(WebsocketMain.class, args);
 	}
 }

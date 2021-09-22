@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Spring Boot 2.5.4 WebSockets Using Stomp and sock</title>
+<title>Spring Boot 2.5.4 WebSockets Using Stomp and Sock</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 	if ('WebSocket' in window) {
 		websocket = new WebSocket("ws://" + serverName + "/websocket");
 	} else {
-		alert('Not support websocket')
+		alert('Websockets not Supported')
 	}
 
 	//callback when connect on error
