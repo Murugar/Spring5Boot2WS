@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>${hello} test Jsp for websockets!</h2>
+<h2>${hello} !</h2>
 </body>
 </html>

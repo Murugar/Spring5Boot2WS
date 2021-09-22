@@ -15,12 +15,12 @@ public class IndexController {
 
 
     //read value from application.properties
-    @Value("${hello:This is a Test }")
+    @Value("${hello:This is a Spring Boot Websockets Test using Stomp}")
     private String hello;
 
     @RequestMapping("/")
     public String index(Model model) {
-        model.addAttribute("hello","This is a Test");
+        model.addAttribute("hello","This is a Spring Boot WebSockets Test using Stomp");
         return "index";
     }
 
